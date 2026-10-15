@@ -1,0 +1,24 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Environment variables — DO NOT commit
+.env
+.env.local
+.env.production
+
+# SQLite artifact (no longer used)
+*.db
+
+# Build output
+client/dist/
+client/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
